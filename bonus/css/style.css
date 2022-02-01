@@ -1,0 +1,41 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+/* contenitore principale */
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #ffff00;
+}
+.color{
+    color: green;
+}
