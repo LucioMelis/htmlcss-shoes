@@ -9,14 +9,14 @@
     width: 100%;
     position: relative;
 }
-
+/* contenitore per la centratura */
 .box{
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%,-50%);
 }
-
+/* seconde classi che seguono le regole container */
 .red{
     background-color: red;
 }
@@ -28,7 +28,7 @@
 .yellow{
     background-color: yellow;
 }
-
+/* regole principali h1  */
 .title{
     text-transform: uppercase;
     text-align: center;
@@ -36,6 +36,7 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #ffff00;
 }
+/* richiamo h1 contenitore yellow  */
 .color{
     color: green;
 }
