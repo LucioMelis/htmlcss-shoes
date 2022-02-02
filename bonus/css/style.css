@@ -40,3 +40,31 @@
 .color{
     color: green;
 }
+/* lavoro sulla nav  */
+nav{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}   
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{ 
+    width: 50px;
+    height:50px;
+    padding: 15px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
